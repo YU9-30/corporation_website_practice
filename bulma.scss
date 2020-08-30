@@ -33,7 +33,24 @@ $navbar-height: 4;
     background: url(../img/bg-large.jpg)center center no-repeat;
     background-size: cover;
     position: relative;
-    height: 60vh; /* 全画面表示 */
+    height: 40vh; /* 全画面表示 */
     background-repeat: no-repeat;
 }
+.is-border-b{
+  border-bottom: 1px solid hsl(0, 0%, 96%);
+}
+@media (max-width: 768px) {
+  .service-box{
+    max-width: 500px;
+   }
+   .service-name { 
+    font-size: 12px;
+   }
+}
+@media (min-width: 769px) {
+  .service-box{
+    max-width: 300px;
+   }
+}
+
 

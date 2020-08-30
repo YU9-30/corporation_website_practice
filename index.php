@@ -38,7 +38,7 @@
               サービス
             </a>
             <a class="navbar-item" href="#about">
-                このサイトについて
+                作った人
               </a>
           </div>
         </div>
