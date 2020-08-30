@@ -1,0 +1,12 @@
+*.map
+sass/
+css/animations.css
+css/form.css
+css/functions.css
+css/helpers.css
+css/icon.css
+css/initial-variables.css
+css/minireset.css
+css/overflow.css
+css/spacing.css
+img/

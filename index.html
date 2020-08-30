@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ホームページ</title>
+    <link href="css/bulma.css" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        $(document).ready(function() {  
+            $(".navbar-burger").click(function() {
+                $(".navbar-burger").toggleClass("is-active");
+                $(".navbar-menu").toggleClass("is-active");
+            });
+        });
+        </script>
+  </head>
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="">
+            <img src="./img/mugen-logo.png">
+          </a>
+      
+          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="#about">
+              ニュース
+            </a>
+            <a class="navbar-item" href="#link">
+              サービス
+            </a>
+          </div>
+        </div>
+    </nav>
+    <div class="hero-index"></div>
+    <section class="hero ">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-desktop">
+                    <div class="column is-full">
+                        <h1 class="title">
+                            ニュース
+                        </h1>
+                        <table class = "table is-fullwidth">
+                            <tbody>
+                               <tr>
+                                    <td>2020/8/30</td>
+                                    <td>
+                                        <div class="tags has-addons">
+                                            <span class="tag">プレスリリース</span>
+                                            <span class="tag is-info">MUGEN.HLD</span>
+                                        </div>
+                                    </td>
+                                    <td>社名を「悠久こんぺき堂」から「MUGEN.HLD」に変更致しました</td>
+                               </tr>
+                               <tr>
+                                    <td>2020/7/32</td>
+                                    <td>
+                                        <div class="tags has-addons">
+                                            <span class="tag">プレスリリース</span>
+                                            <span class="tag is-info">MUGEN.HLD</span>
+                                        </div>
+                                    </td>
+                                    <td>この会社は実在しません</td>
+                               </tr>
+                               <tr>
+                                    <td>2020/2/16</td>
+                                    <td>
+                                        <div class="tags has-addons">
+                                            <span class="tag">掲載情報</span>
+                                            <span class="tag is-dark">神涼運送</span>
+                                        </div>
+                                    </td>
+                                    <td>全国運送会二人三脚配達部門において金賞を受賞しました</td>
+                               </tr>
+                               <tr>
+                                    <td>2020/2/16</td>
+                                    <td>
+                                        <div class="tags has-addons">
+                                            <span class="tag">プレスリリース</span>
+                                            <span class="tag is-primary">YUKYU FINANCE</span>
+                                        </div>
+                                    </td>
+                                    <td>1万円札から2万円札を生み出す技術「倍金」の実証実験を2020年10月1日より実施します</td>
+                               </tr>
+                               <tr>
+                                <td>2020/2/16</td>
+                                <td>
+                                    <div class="tags has-addons">
+                                        <span class="tag is-dark">新製品</span>
+                                        <span class="tag is-light">馬喰電機</span>
+                                    </div>
+                                </td>
+                                <td>どこにいてもつながるモバイルワイファイルーターが登場します</td>
+                           </tr>
+                               <tr>
+                                    <td>2020/2/15</td>
+                                    <td>
+                                        <div class="tags has-addons">
+                                            <span class="tag">プレスリリース</span>
+                                            <span class="tag is-info">MUGEN.HLD</span>
+                                        </div>
+                                    </td>
+                                    <td>全国架空企業合同組合が発足しました</td>
+                               </tr>
+                            </tbody>
+                         </table>
+                    </div>
+                </div>
+                <div class="columns is-desktop mt-5">
+                    <div class="column">
+                        <h1 class="title">
+                            サービス
+                        </h1>    
+                    </div>
+                </div>
+                <div class="columns is-dmobile is-centered">
+                    <div class="column has-text-centered">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-3by3">
+                                    <img src="./img/logo_unsou.png" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="subtitle is-5">物流ソリューション</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="column has-text-centered ">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-3by3">
+                                    <img src="./img/logo_denki.png" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="subtitle is-5">インフラサービス</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column has-text-centered">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-3by3">
+                                    <img src="./img/yukyu_tec.png" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="subtitle is-5">ロボティクス</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column has-text-centered">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-3by3">
+                                    <img src="./img/yukyu_fin.png" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="subtitle is-5">フィンテック</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   
+                </div>
+            
+            </div>
+        </div>
+    </section>
+  </body>
+</html>
